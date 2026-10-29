@@ -1,0 +1,24 @@
+{
+  "name": "Dieta Sofia",
+  "short_name": "Dieta Sofia",
+  "description": "Dieta settimanale con kcal, lista della spesa, calcolatrice crudo/cotto e ricette.",
+  "lang": "it",
+  "id": "./",
+  "start_url": "./#dieta",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f2f4",
+  "theme_color": "#8e3b63",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Dieta di oggi", "url": "./#dieta", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]},
+    {"name": "Lista della spesa", "url": "./#spesa", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]},
+    {"name": "Crudo / Cotto", "url": "./#bilancia", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]},
+    {"name": "Ricette", "url": "./#ricette", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]}
+  ]
+}
